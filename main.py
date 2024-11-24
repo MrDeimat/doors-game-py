@@ -78,11 +78,19 @@ if mm == 1:
                 print('1/2/3/4')
                 player = int(input('choose door'))
                 bot = random.randint(1, 4)
-                
+
                 if player == bot:
                     print('You Lost 1 HP')
                     hp = hp = - 1
-                    
+                else:
+                    print('round 5')
+                    print('1/2/3/4/5')
+                    player = int(input('choose door'))
+                    bot = random.randint(1, 5)
+                    if player == bot:
+                        print('You Lost 1 HP')
+                        hp = hp = - 1
+
 
 else:
     print('🗿')
