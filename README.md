@@ -1,2 +1,1 @@
-# doors-game-py
-source code
+You will need to install art (pip install art)
