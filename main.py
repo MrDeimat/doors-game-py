@@ -2,6 +2,7 @@ from colorama import init, Fore
 from colorama import Back
 from colorama import Style
 import time
+from art import *
 
 import random
 hp = 3
@@ -29,7 +30,8 @@ print('''
 ⠀⠀⠀⠈⠀⠐⠒⠒⠀⠀⠀⠘⠁⠈⠀⠀⠀⠀⠉⠉⢛⠉⠑⠒⠠⠤⢿⠇
                              ''')
 
-print("Doors Game")
+
+tprint('Doors Game')
 print("Play - 1")
 print("Exit - 2")
 mm = int(input('Enter Number'))
@@ -65,11 +67,3 @@ if mm == 1:
         bot = random
 else:
     print('🗿')
-
-
-
-
-
-
-
- 
